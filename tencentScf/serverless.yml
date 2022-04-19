@@ -23,7 +23,7 @@ inputs:
     - timer: # 每日任务触发器
         parameters:
           name: DailyTask
-          cronExpression: "0 30 12 * * * *"
+          cronExpression: "0 30 5 * * * *"
           enable: true
           argument: Daily
     - timer: # 天选抽奖触发器
