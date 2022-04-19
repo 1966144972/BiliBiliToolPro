@@ -41,3 +41,4 @@ inputs:
   environment:
     variables: # 根据自己的需要修改
       Ray_BiliBiliCookies__1: 123 # cookie，必填
+      Ray_Serilog__WriteTo__9__Args__token: 188e877848af47c9a38a267bdb731046
