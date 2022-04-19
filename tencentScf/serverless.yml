@@ -30,13 +30,13 @@ inputs:
         parameters:
           name: LiveLotteryTask
           cronExpression: "0 0 */4 * * * *"
-          enable: true
+          enable: false
           argument: LiveLottery
     - timer: # 自动取关
         parameters:
           name: UnfollowBatchedTask
           cronExpression: "0 0 0 * * MON *"
-          enable: true
+          enable: false
           argument: UnfollowBatched
   environment:
     variables: # 根据自己的需要修改
